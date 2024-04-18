@@ -15,10 +15,7 @@ use "S:\B4175_howe - B4175_howe\20231123_b4175_howe_built.dta", replace
 *remove males
 drop if kz021==1
 
-*remove withdrawn
-drop if c804==.a
-
-*install things
+*install 
 search rmiss2
 search mdesc
 search eststo
